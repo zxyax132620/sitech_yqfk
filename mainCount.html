@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>科学战役</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="mainCount.js" type="text/javascript"></script>
+    <link href="mainCount.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bodystyle">
+    <div id="head">
+        <div class="title">
+            “用数据说话，科学‘战’疫”——思特奇人“防疫情、促生产”运营分析
+        </div>
+    </div>
+    <div>
+        <div class="menu">
+            <nav class="list1">
+                <ul>
+                    <li ><a href="#" divdata="1">全国疫情数据</a></li>
+                    <li ><a href="#" divdata="2">重灾区疫情数据</a></li>
+                    <li ><a href="#" divdata="3">国外数据</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="show">
+        <hr class="line"/>
+        <div divdata="1" style="display: block;">
+            <p class="provinceMap" style="margin-left: 80px;font-size: 25px;">全国疫情数据<span class="dataspan">数据更新至2020年03月12日</span></p>
+            <div id="showMap">
+                <img src="china.png" style="height: 20%;width: 80%;margin-left: 80px;">
+            </div>
+            <p class="text" style="text-indent:2em;margin-left:80px"><i>
+                自2020年1月24日以来，湖北省范围内出现新冠状病毒，慢慢扩散至全国。刚开始确诊人数增长缓慢，到当月12日起，累计</br>
+                确诊人数出现暴增，直至当月<span class="font">19日</span>后，增长速度有所减缓。当月27日后确诊人数增长趋势趋近于平缓或出现负增长。</br>
+            </i></p>
+            <p class="text" style="text-indent:2em;margin-left: 80px;"><i>
+                疫情发生以来，全民响应政府号召，居家隔离，不走亲，不聚会，为阻止本次疫情蔓延贡献着自己的力量，加上全国范围内</br>
+                团结一心，共同抗击疫情，出现了当下良好的局面。根据统计数据可以看出，治愈人数一直都在增长，死亡人数得到了很好的控制。
+            </i></p>
+        </div>
+        <div divdata="2" style="display: none;">
+            <p class="privaceMap" style="margin-left: 80px;font-size: 25px;">湖北全省疫情数据<span style="margin-left: 850px;font-size: 15px;color: lightslategray;">数据更新至2020年03月12日</span></p>
+            <div id="showMap">
+                <img src="hubeisheng.png" style="height: 20%;width: 80%;margin-left: 80px;">
+            </div>
+            <p class="text" style="text-indent:2em;margin-left:80px"><i>
+                湖北省是中国出现首例感染新冠状病毒的省份。从图中可以看到，他的趋势与全国的大相径庭，自<span class="font">2月19日</span>之后，新冠状</br>病毒确诊人数增长缓慢或0增长，
+                说明在<span class="font">2月19日</span>之后，有效的控制住了疫情的传播速度，治愈人数在持续增长，慢慢向感染</br>人数靠拢，这对于全国人民来说是一个天大的好消息。
+            </i></p>
+            <p class="privaceMap" style="margin-left: 80px;font-size: 25px;">湖北省武汉疫情数据</p>
+            <div id="showMap">
+                <img src="hebeiwuhan.png" style="height: 20%;width: 80%;margin-left: 80px;">
+            </div>
+            <p class="privaceMap" style="margin-left: 80px;font-size: 25px;">湖北省孝感疫情数据</p>
+            <div id="showMap">
+                <img src="hubeixhaogan.png" style="height: 20%;width: 80%;margin-left: 80px;">
+            </div>
+            <p class="privaceMap" style="margin-left: 80px;font-size: 25px;">湖北省黄冈疫情数据</p>
+            <div id="showMap">
+                <img src="hubeihuanggang.png" style="height: 20%;width: 80%;margin-left: 80px;">
+            </div>
+            <p class="privaceMap" style="margin-left: 80px;font-size: 25px;">湖北省荆州疫情数据</p>
+            <div id="showMap">
+                <img src="hubeijingzhou.png" style="height: 20%;width: 80%;margin-left: 80px;">
+            </div>
+            <p class="text" style="text-indent:2em;margin-left:80px"><i>
+                从上图中显示出的总体趋势是：在<span class="font">2月19日</span>之前，湖北省主要种灾区域累计确诊人数都在持续增长，<span class="font">2月19日</span>之后，增</br>长速度趋近于平缓。可以说<span class="font">2月19日</span>
+                是一个转折点，疫情发生以来第28天，是一个值得纪念的日子。
+            </i></p>
+        </div>
+        <div divdata="3" style="display: none;">
+            <p class="privaceMap" style="margin-left: 80px;font-size: 25px;">大洲疫情数据<span class="dataspan">数据更新至2020年03月12日</span></p>
+            <div id="showMap">
+                <img src="waiguo.png" style="height: 20%;width: 80%;margin-left: 80px;">
+            </div>
+            <p class="text" style="text-indent:2em;margin-left:80px"><i>
+                图中显示的是截止至3月12日，世界范围内(中国不计算在亚洲内)爆发新冠状病毒情况，其中欧洲、亚洲最为严重，新冠</br>状病毒感染者几乎都在这两个大洲，
+                治愈人数与感染人数不成比例。为他们加油，希望他们能够挺过难关。
+            </i></p>
+            <p class="privaceMap" style="margin-left: 80px;font-size: 25px;">海外重灾区</p>
+            <div id="showMap">
+                <img src="waiguozhongzaiqu.png" style="height: 20%;width: 80%;margin-left: 80px;">
+            </div>
+            <p class="text" style="text-indent:2em;margin-left:80px"><i>
+                图中显示的是受新冠状病毒影响最大的20个海外国家，其中以意大利、伊朗、韩国、法国、德国、西班牙为重灾区。累计</br>
+                感染人数远远超过治愈人数，这是一个及其危险的信号，希望新冠状病毒能够引起各界人士的注意。
+            </i></p>
+            <p class="text" style="text-indent:2em;margin-left:80px"><i>
+                文章最后，呼吁全国乃至全世界人民，众志成城，共同抗击疫情，早点打赢这场病毒战！！！
+            </i></p>
+        </div>
+    </div>
+    <div id="foot">
+        <div class="copyright">
+            <p>Copyright © 2020 Qunar.com Inc. All Rights Reserved.</p>
+            <div class="img">
+                <i class="icon"></i><span>联系邮箱：18785096214@163.com</span>
+            </div>
+
+            <div class="img">
+                <i class="icon1"></i><span>联系地址：贵州省贵阳市云岩区白云大道广信四季家园</span>
+            </div>
+
+            <div class="img">
+                <i class="icon2"></i><span>联系电话：18785096214</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
